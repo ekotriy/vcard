@@ -1,0 +1,79 @@
+html,body,h1 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(189, 184, 184);
+}
+.container {
+    width: 850px;
+    margin: 50px auto;
+    background-color: white;
+    display: flex;
+    border-radius: 15px;
+    padding: 80px;
+    justify-content: center;
+}
+
+.sidebar{
+    /* flex: 1; */
+    padding: 30px 30px 30px 0;
+    text-align: right;
+}
+
+.sidebar h1 {
+    font-size: 50px;
+}
+
+.pro{
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.garis {
+    width: 5px;
+    background-color: black;
+    margin: 20px;
+}
+
+.main{
+    /* flex: 1; */
+    padding: 30px;
+}
+
+.telp{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.email {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.web {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.add {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.telp i {
+    margin-right: 30px;
+}
+.email i{
+    margin-right: 30px;
+    
+}
+
+.web i {
+    margin-right: 30px;
+}
+
+.add i {
+    margin-right: 30px;
+}
